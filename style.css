@@ -12,10 +12,10 @@ p {
     max-width: 50rem;
 }
 
-#titlebox {
+#tittelboks {
     width: 100%;
     min-height: 100vh; 
-    background-image: url(./pics/pic1.jpg);
+    background-image: url(./pic1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
