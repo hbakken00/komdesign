@@ -5,23 +5,21 @@ html, body {
 
 body {
     scroll-behavior: smooth;
+    background-image: url(./eksempelbilde.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+
 }
 
 /*max with på tex ti p tag*/
-p {
-    max-width: 50rem;
-}
 
-#tittelboks {
-    width: 100%;
-    min-height: 100vh; 
-    background-image: url(./eksempelbilde.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
-}
+
+
+
 
 
 /* mobile queries first 
@@ -32,3 +30,33 @@ p {
     }
 }
  */
+
+
+ 
+section {
+    min-height: 600px;
+    width: 950px;
+    border: 10px solid #ccc;
+    margin: auto;
+}
+aside { 
+      width: 200px; 
+      position: -webkit-sticky;
+      position: sticky;
+      top: -1px;
+      float: left;
+      margin-right: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+}
+#overskrift {
+    float: left;
+}
+strong {
+    font-size: 100px;
+}
+article {
+    width: 500px;
+    margin-left: 260px;
+}
