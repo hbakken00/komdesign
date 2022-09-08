@@ -11,28 +11,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 
-
-
 }
 
-/*max with på tex ti p tag*/
-
-
-
-
-
-
-/* mobile queries first 
-
-@media (min-width: 600px) {
-    body {
-        background-color: red;
-    }
-}
- */
-
-
- 
 section {
     min-height: 600px;
     width: 950px;
@@ -50,9 +30,6 @@ aside {
       color: #fff;
       padding: 20px;
 }
-#overskrift {
-    float: left;
-}
 strong {
     font-size: 100px;
 }
@@ -60,3 +37,11 @@ article {
     width: 500px;
     margin-left: 260px;
 }
+/* mobile queries 
+
+@media (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+ */
